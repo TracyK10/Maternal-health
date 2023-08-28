@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maternal health</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <main>
+        <div class="intro">
+        <h1>Welcome to <i>Well Mother</i></h1>
+        <p>Many women in remote and under-served areas in Kenya face significant challenges in accessing maternal healthcare services. Geographical isolation, lack of infrastructure, and limited healthcare facilities often result in delayed or inadequate prenatal care and delivery assistance. This not only increases the risk of maternal complications but also endangers the lives of both mothers and infants. Additionally, socio-economic disparities and cultural factors can further exacerbate these barriers, making it imperative to prioritize targeted interventions, infrastructure development, and community outreach programs to ensure equitable access to essential maternal healthcare services for all women, regardless of their geographic location or socio-economic status.</p>
+   <img src="/images/pregnant women.webp" alt="pregnant woman" class="pwoman"> </div>
+    </main>
+    <section class="middle">
+        <h1>About us</h1>
+        <p>We are a small start up company whose aim is to provide maternal healthcare to every woman in need of it especially those who are unable to access it. We have helped over 50,000 women so far and aim to help more women as much as possible.</p>
+        <img src="/images/nurse.webp" alt="nurse guiding mother holding her child" class="center">
+    </section>
+
+    <section class="middle_two">
+        <h2>What we do</h2>
+        <p>That's why as an organization working with hospitals around Kenya we have come up with ways to help with this problem:</p>
+        <ol>
+            <li><strong>Hospital Outreach Programs:</strong> Collaborate with nearby hospitals to send medical teams to remote areas periodically.</li>
+    
+            <li><strong>Referral Systems:</strong> Establish a referral system between local health centers and hospitals for prompt care during complications.</li>
+    
+            <li><strong>Hospital Transport Services:</strong> Provide transportation services for pregnant women in remote areas.</li>
+    
+            <li><strong>Hospital Telemedicine Services:</strong> Set up telemedicine facilities for consultations with specialists.</li>
+    
+            <li><strong>Training and Capacity Building:</strong> Hospitals can provide training for healthcare workers in remote areas.</li>
+    
+            <li><strong>Supply Chain Collaboration:</strong> Ensure a consistent supply of maternal healthcare medications and equipment to remote clinics.</li>
+    
+            <li><strong>Financial Support:</strong> Offer reduced fees or financial assistance for underprivileged women.</li>
+    
+            <li><strong>Data Sharing:</strong> Collaborate on data sharing to monitor maternal health outcomes.</li>
+    
+            <li><strong>Awareness Campaigns:</strong> Conduct awareness campaigns emphasizing the importance of hospital-based care.</li>
+    
+            <li><strong>Community Engagement:</strong> Involve hospitals in community meetings to build trust and acceptance of hospital-based care.</li>
+        </ol>
+        <p>These partnerships leverage the expertise, resources, and facilities of hospitals to extend quality maternal healthcare services, reducing maternal mortality and ensuring healthier outcomes for women and infants.</p>
+        <img src="/images/awareness.webp" alt="awareness project" class="center_two">
+    </section>
+    <section class="end">
+        <p>If you need more information, feel free to access it here on our website where we can send daily messages to you if you sign up in the form below.</p>
+        
+                  <form method="POST" action="/send_sms">
+                    <fieldset>
+                    <label for="recipient_phone">Recipient's Phone Number:</label>
+                    <input type="text" id="recipient_phone" name="recipient_phone" required><br><input type="submit" value="Send SMS"></fieldset></fieldset>
+                    <fieldset>
+                    <label for="role">Which option best describes your current role? 
+                        <select id="dropdown" name="role">
+                            <option value="">Select your current role</option>
+                            <option value="1">Student</option>
+                            <option value="2">Full Time Job</option>
+                            <option value="3">Full Time Learner</option>
+                            <option value="4">Prefer not to say</option>
+                            <option value="5">Other</option>
+                         </select>
+                         
+                        </label>
+                        </fieldset>
+                        <fieldset>
+                        <label for="recommend">Would you recommend us to a friend?
+                          <div><input type="radio" name="recommend" checked class="inline" value="definitely"> Definitely
+                            <input type="radio" name="recommend" class="inline" value="maybe"> Maybe
+                            <input type="radio" name="recommend" class="inline" value="not-sure"> Not sure
+                            
+                          </label></fieldset>
+                          <fieldset>
+                            <label for="comments">Any comments or suggestions?
+                              <textarea placeholder="Enter your comment here..."></textarea></label>
+                              
+                </form>
+</section>
+</body>
+</html>
