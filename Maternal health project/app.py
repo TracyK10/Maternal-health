@@ -4,8 +4,8 @@ import africastalking
 app = Flask(__name__)
 
 # Configure Africa's Talking credentials
-africastalking_username = "well_mother"
-africastalking_api_key = "0c8f2b254cf1a1bb8d9150a0817fb4fc25485d87f56eacb856df74847c6af4fb"
+africastalking_username = ""
+africastalking_api_key = ""
 
 africastalking.initialize(africastalking_username, africastalking_api_key)
 sms = africastalking.SMS
